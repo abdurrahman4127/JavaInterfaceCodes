@@ -1,10 +1,10 @@
 interface One1 {
-    public void X();
+    public void X();  // public is not needed, btw
 }
 
 interface Two2 extends One1 {
     String name2 = "Thao Nhi";
-    public void Y();
+    void Y();
 }
 
 //implementing
@@ -18,7 +18,7 @@ class Three3 implements Two2 {
     }
 }
 
-public class InterfaceQuestion {
+public class Interface3 {
     public static void main(String[] args)
     {
         Three3 three3 = new Three3();
