@@ -10,7 +10,7 @@ interface Student {
 
 //one interface can extend other Interface
 interface Teacher extends Student {
-    void tn();
+    void ar();
 }
 
 class NormalClass {
@@ -34,8 +34,8 @@ class Implement extends NormalClass implements Student, Teacher {
     }
 
     @Override
-    public void tn() {
-        System.out.println("inside tn ");
+    public void ar() {
+        System.out.println("inside ar ");
     }
 }
 
